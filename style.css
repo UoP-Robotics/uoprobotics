@@ -387,7 +387,7 @@ small {
 }
 #projects {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 10%, rgba(1, 40, 85, 0.450) 100%), 
-    url('assets/images/Robots.jpg');
+    url('assets/images/Banner.png');
     background-size:cover;
     background-position: center;
     background-attachment: fixed; 
@@ -448,7 +448,7 @@ small {
     background-repeat: no-repeat;
 }
 #project-team-line-scout {
-    background: #012865 url('assets/images/line_scout_new.jpg');
+    background: #012865 url('assets/images/line_follower_new.png');
     background-size:cover;
     background-position: center;
     background-attachment: fixed; 
