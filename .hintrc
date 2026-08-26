@@ -1,0 +1,21 @@
+/*
+ * UoP Robotics Team - Website Core
+ * Copyright (C) 2026 UoP Robotics Team <roboticsteam@go.uop.gr>
+ * * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ */
+{
+  "extends": [
+    "development"
+  ],
+  "formatters":[
+    "stylish"
+  ],
+  //Χρήσιμες ρυθμίσεις για τα hints σε HTML tags
+  "hints": {
+    "duplicate-id": "off",
+    "no-inline-styles": "off"
+  }
+}

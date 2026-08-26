@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UGV Project</title>
+        <!--Fonts-->
+        <link rel="stylesheet" href="../style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+        <!--Bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--FontAwesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="icon" href="../assets/images/Robotics_Logo.png" type="image/x-icon">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../index.js" defer></script>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navBar">
+        <nav id="navBar" class="navbar navbar-expand-lg fixed-top custom-navbar navbar-dark">
+            <div class="container reveal">
+                <div class="photo_1">
+                    <a href="../index.html#home" class="navbar-brand"><img src="../assets/images/RoboticsLogo.png" id="photo_1" alt="photo1" class="img-thumbnail" width="85"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-target="#navbarNav" title="menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="../index.html" data-i18n="nav_home" title="Home"><i class="fas fa-home"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#about" data-i18n="nav_about" title="About Us">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#history" data-i18n="nav_history" title="Our History">Our History</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#projects" data-i18n="nav_projects" title="Projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#sponsors" data-i18n="nav_sponsors" title="Sponsors">Sponsors</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#faq" data-i18n="nav_faq" title="FAQ">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#contact" data-i18n="nav_contact" title="Contact Us">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="ugv-project" class="py-5 reveal">
+            <div class="container">
+                <div class="row align-items-center">
+                    <h1 class="section-title" data-i18n="nav_about">STAFYLOS UGV</h1>
+                    <p class="medium" data-i18n="proj1_desc">
+                       Anthropogenic climate change and escalating global temperatures present severe threats to global viticulture, with regions across the Mediterranean and Southern Europe experiencing heightened vulnerability. Altered microclimates
+                       have accelerated the proliferation of phytopathogenic fungi which severely compromise fruit quality, diminish crop yields, and threaten total agricultural output. Concurrently, manual field operations conducted during peak 
+                       summer temperatures expose agricultural labor to hazardous conditions, increasing the incidence of heat-related illnesses.
+
+                    </p>
+                    <p class="medium mb-3" data-i18n="proj1_desc">
+                        To address these compounding environmental and operational challenges, this work introduces <strong>Stafylos: an autonomous Unmanned
+                        Ground Vehicle (UGV)</strong> engineered for precision viticulture. By uniting edge-based computer vision with advanced robotic manipulation, 
+                        Stafylos performs real-time pathogen diagnostic monitoring and automated crop harvesting. The platform aims to mitigate economic loss 
+                        through early disease intervention, streamline yield collection, and safeguard human workers by delegating labor-intensive tasks in extreme 
+                        conditions to an autonomous system.
+
+                    </p>
+                    <h5 class="section-subtitle text-center mb-4 mt-2">Technical Architecture & Methodology</h5>
+                    <p class="medium mt-2" data-i18n="proj1_desc">
+                        To achieve autonomous monitoring and physical interaction, the Stafylos UGV integrates high-resolution optical sensors with a custom robotic manipulator.
+                        Real-time visual data captured by the vision architecture is processed locally via an on-board machine learning inference pipeline, enabling edge-based automated 
+                        detection of crop diseases directly on vine foliage and fruit clusters. Simultaneously, the robotic manipulator facilitates precise harvesting operations, selectively 
+                        picking grape clusters while minimizing mechanical damage to the crops and relieving human labor from extreme ambient conditions.
+                    </p>
+                    <p class="medium mt-2" data-i18n="proj1_desc">
+                        The system's software architecture and control stack are built upon <strong>ROS 2 (Robot Operating System 2)</strong>, guaranteeing low-latency inter-process communication, 
+                        deterministic control, and operational modularity. Telemetry and field diagnostics are transmitted via modern communication protocols, utilizing <strong> MQTT</strong> for high-throughput
+                        lightweight messaging and <strong>LoRa</strong> for low-power, long-range connectivity in broad field environments.
+                    </p>
+                    <p class="medium">
+                        Finally, the end-to-end framework is integrated with a fully functional user application, providing agricultural producers with real-time crop analytics, system telemetry, 
+                        and remote monitoring capabilities.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="project-team-ugv" class="py-5">
+            <div class="container reveal">
+                <h2 class="text-center mb-5">UGV Members</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-mb-6 reveal active">
+                        <div class="card team-member-card h-100 shadow-sm border-0 p-3">
+                            <img src="../assets/images/UGV LOGO.png" alt="member" class="rounded-circle mx-auto mt-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Panagiotis Papaioannou</h5>
+                                <p class="mb-2 fw-bold text-primary text-start">Project Manager & Software Architecture Engineer</p>
+                                <p class="small justify-content mb-4">Oversees project planning and task allocation across engineering teams. As Software Architecture Engineer, leads the ROS 2 software architecture, driving the development of the UGV's Odometry & Control, SLAM, Navigation/Path Planning and Manipulator.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-mb-6 reveal active">
+                        <div class="card team-member-card h-100 shadow-sm border-0 p-3">
+                            <img src="../assets/images/Mikel_Dudi.jpg" alt="member" class="rounded-circle mx-auto mt-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Mikel Dudi</h5>
+                                <p class="mb-2 fw-bold text-primary">Head Hardware Engineer</p>
+                                <p class="small justify-content mb-4">Oversees hardware engineering, focusing on custom PCB design, circuit layout and electronic integration for the UGV's systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-mb-6 reveal active">
+                        <div class="card team-member-card h-100 shadow-sm border-0 p-3">
+                            <img src="../assets/images/Giannoulis.jpg" alt="member" class="rounded-circle mx-auto mt-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">George Giannoulis</h5>
+                                <p class="mb-2 fw-bold text-primary">Software Engineer</p>
+                                <p class="small justify-content mb-4">Develops and integrates ROS-based software algorithms to power the UGV's autonomous navigation and control.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-mb-6 reveal active">
+                        <div class="card team-member-card h-100 shadow-sm border-0 p-3">
+                            <img src="../assets/images/pegiazis.jpg" alt="member" class="rounded-circle mx-auto mt-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">George Pegiazis</h5>
+                                <p class="mb-2 fw-bold text-primary">Web Application Developer</p>
+                                <p class="small justify-content mb-4">Responsible for the development, security and maintainance of the team's official website and UGV's control application.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-mb-6 reveal active">
+                        <div class="card team-member-card h-100 shadow-sm border-0 p-3">
+                            <img src="../assets/images/pefanis.jpg" alt="member" class="rounded-circle mx-auto mt-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Aggelos Pefanis</h5>
+                                <p class="mb-2 fw-bold text-primary">Machine Learning Engineer</p>
+                                <p class="small justify-content mb-4">Focuses on training ML models to detect and diagnose plant diseases.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-mb-6 reveal active">
+                        <div class="card team-member-card h-100 shadow-sm border-0 p-3">
+                            <img src="../assets/images/Stefen_Lauder.jpg" alt="member" class="rounded-circle mx-auto mt-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Stefanos John Lauder</h5>
+                                <p class="mb-2 fw-bold text-primary">Head Mechanical Designer</p>
+                                <p class="small justify-content mb-4">Leads the mechanical design, structure, and assembly of the robot.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-mb-6 reveal active">
+                        <div class="card team-member-card h-100 shadow-sm border-0 p-3">
+                            <img src="../assets/images/UGV LOGO.png" alt="member" class="rounded-circle mx-auto mt-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Bill Toumpas</h5>
+                                <p class="mb-2 fw-bold text-primary text-start">Mechatronics & Hardware Integration Engineer</p>
+                                <p class="small justify-content mb-4">Responsible for the assembly process, the material selection, and hardware component research.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-mb-6 reveal active">
+                        <div class="card team-member-card h-100 shadow-sm border-0 p-3">
+                            <img src="../assets/images/sakis_tolis.jpg" alt="member" class="rounded-circle mx-auto mt-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Athanasios Achyriatis</h5>
+                                <p class="mb-2 fw-bold text-primary">Mechanical Designer</p>
+                                <p class="small justify-content mb-4">Takes care of the mechanical design, structural integrity and physical assembly of the UGV.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-mb-6 reveal active">
+                        <div class="card team-member-card h-100 shadow-sm border-0 p-3">
+                            <img src="../assets/images/poniros.jpg" alt="member" class="rounded-circle mx-auto mt-3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Dimitris Poniros</h5>
+                                <p class="mb-2 fw-bold text-primary">3D Designer</p>
+                                <p class="small justify-content mb-4">Responsible for the robot's skeleton design.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Footer Section-->
+         <footer id="footer">
+           <div class="container text-center">
+                <div class="mb-4 text-white">
+                    <h2>UoP Robotics Team®</h2>
+                    <a href="https://www.instagram.com/uop.robotics?igsh=MWQ4ZG8xd3BpeXg2ZQ==" title="Visit our Instagram page" rel="noopener noreferrer" target="_blank" class="btn btn-outline-primary btn-lg border-0"><i class="fa-brands fa-instagram" id="instagram"></i></a>
+                    <a href="https://www.facebook.com/share/12LtqVcZXnQ/" title="Visit our Facebook page" rel="noopener noreferrer" target="_blank" class="btn btn-outline-primary btn-lg border-0"><i class="fa-brands fa-facebook" id="facebook"></i></a>
+                    <a href="https://www.tiktok.com/@uoprobotics?_r=1&_t=ZN-968JbPu5ASk" title="Visit our TikTok page" rel="noopener noreferrer" target="_blank" class="btn btn-outline-primary btn-lg border-0"><i class="fa-brands fa-tiktok" id="tiktok"></i></a>
+                    <a href="https://www.linkedin.com/company/uoprobotics/" title="Visit our LinkedIn page" rel="noopener noreferrer" target="_blank" class="btn btn-outline-primary btn-lg border-0"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+                    <a href="https://www.youtube.com/@UoPRoboticsTeam" title="Visit our Youtube channel" rel="noopener noreferrer" target="_blank" class="btn btn-outline-primary btn-lg border-0"><i class="fa-brands fa-youtube" id="youtube"></i></a>
+                </div>
+                <p class="text-white small">&copy;2026 UoP Robotics Team | All rights reserved. | <a href="../privacy_policy.html" class="text-white text-decoration-none ms-1">Privacy Policy</a>
+                </p>
+            </div>            
+        </footer>          
+    </body>
+</html>
