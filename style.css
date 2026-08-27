@@ -82,7 +82,7 @@ font-size:large;}
     color: #fefefe !important;}
 #home {
     min-height: 100vh; display:flex; align-items:center; 
-    background: linear-gradient(135deg,rgb(0, 0, 0) 10%, rgba(1, 40, 85, 0.450) 100%), url('assets/images/uop_robotics_new_image.png');
+    background: linear-gradient(135deg,rgb(0, 0, 0) 10%, rgba(1, 40, 85, 0.450) 100%), url('assets/images/team.jpg');
     background-size:cover;
     background-position: center;
     background-attachment: fixed; 
@@ -528,7 +528,7 @@ footer a, footer i {
 }
 #contact {
     background: linear-gradient(135deg, rgba(0,0,0,0.15) 10%, rgba(1, 40, 85, 0.670) 100%),
-    url('assets/images/uop_robotics_new_image.png');
+    url('assets/images/robotic_arena_2026.jpg');
     background-size:cover;
     background-position: center;
     background-attachment: fixed; 
