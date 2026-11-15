@@ -82,7 +82,7 @@ font-size:large;}
     color: #fefefe !important;}
 #home {
     min-height: 100vh; display:flex; align-items:center; 
-    background: linear-gradient(135deg,rgb(0, 0, 0) 10%, rgba(1, 40, 85, 0.450) 100%), url('assets/images/team.jpg');
+    background: linear-gradient(135deg,rgb(0, 0, 0) 10%, rgba(1, 40, 85, 0.450) 100%), url('assets/images/2nd_place_award_ceremony.jpeg');
     background-size:cover;
     background-position: center;
     background-attachment: fixed; 
